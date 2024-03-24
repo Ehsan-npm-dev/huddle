@@ -1,0 +1,340 @@
+:root {
+  --white: white;
+  
+}
+
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+@media (max-width :780px) {
+
+  body{
+
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-items: center;
+  gap: 450px;
+}
+
+.logo {
+  width: 120px;
+  height: 22px;
+}
+
+.btn {
+  border-radius: 15px;
+  border: 1px solid pink;
+  background-color: white;
+  width: 100px;
+  height: 25px;
+  color: pink;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(250, 248, 248);
+}
+
+.sic-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20x;
+  width: 100%;
+}
+
+.sec-top-1 {
+  font-size: 20px;
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.paragh {
+  font-size: 16px;
+
+  padding-bottom: 20px;
+}
+
+.btn-2 {
+  width: 190px;
+  height: 50px;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(182, 106, 217);
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.btn-2:hover {
+  background-color: rgb(58, 58, 169);
+}
+
+.img-1 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+  width: 590px;
+}
+
+
+@media (max-width:780px) {
+  .sec-top2 {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+}
+
+.sec-top2 {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  width:750px;
+  height: 30vh;
+
+
+}
+
+
+
+
+.img-2 {
+  width: 25px;
+  height: 25px;
+}
+
+.h-2 {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.p-2 {
+  font-family: sans-serif;
+  color: rgb(157, 157, 157);
+  font-size: 15px;
+}
+
+.sec-3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 80px;
+}
+
+.icon {
+  width: 350px;
+  height: auto;
+}
+
+.h-one {
+  font-family: sans-serif;
+
+  margin-bottom: 15px;
+}
+
+.p-one {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.sec-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.icon-2 {
+  width: 350px;
+  height: auto;
+}
+
+.h-two {
+  font-family: sans-serif;
+  margin-bottom: 15px;
+}
+
+.p-two {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.sec-5 {
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+}
+
+.icon-3 {
+  width: 280px;
+  height: auto;
+}
+
+.h-10 {
+  display: flex;
+  padding-bottom: 15px;
+  font-family: sans-serif;
+}
+
+.p-10 {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.section-v {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-top: 100px;
+}
+
+.title-v {
+  font-family: sans-serif;
+  font-size: 21px;
+}
+
+.btn-v {
+  width: 200px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: rgb(211, 110, 197);
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.btn-v:hover {
+  background-color: rgb(50, 131, 203);
+}
+
+.link-fo {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: rgb(13, 13, 14);
+}
+
+.sec-fo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 230px;
+  margin-top: 175px;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: center;
+  padding-left: 20px;
+  padding-left: 20px;
+}
+
+
+
+@media (max-width :780px) {
+
+  .sec-fo {
+
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+.side-v {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.img-fo {
+  width: 170px;
+  display: flex;
+}
+
+.p-fp {
+  display: flex;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-left: 59px;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.side-h {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.form {
+  display: flex;
+  gap: 20px;
+}
+
+.input-1 {
+  width: 255px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+
+.p-p {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.h-h {
+  font-family: sans-serif;
+}
+.btn-fi {
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: rgb(165, 102, 225);
+  cursor: pointer;
+  color: white;
+}
